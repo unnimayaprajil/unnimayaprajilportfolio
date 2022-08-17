@@ -1,0 +1,22 @@
+.footer-wrap{
+    height: 20vh;
+    text-align: center;
+    background-color: rgb(185, 185, 49);
+    padding-top: 40px;
+}
+/* <Navbar />
+      <Banner/>
+      <About/>
+      <Skills/>
+      <Create/>
+      <Project/>
+      <Contact/>
+       <Router>
+    
+    <Routes>
+      <Route exact path="/" element={<Banner/>}></Route>
+      <Route  path="/about" element={<About/>}></Route>
+      </Routes>
+      </Router>
+     
+      <Footer/> */

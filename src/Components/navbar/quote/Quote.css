@@ -1,0 +1,22 @@
+/*    m                           <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20%2811%29.jpg"/> */
+.quote-wrap {
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    /* width: 100%; */
+}
+
+.quote-content img {
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+.quote-content {
+    z-index: 99999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,61 @@
+.contact-wrap {
+    height: 110vh;
+    width: 100%;
+        background-color: rgb(209, 217, 224); 
+
+}
+
+.contact-content {
+    z-index: 99999;
+    position: absolute;
+    top: 860%;
+    margin-top: 390px;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 576px) {
+    .contact-wrap {
+        height: 100vh;
+    }
+
+    .contact-content {
+        top: 630%;
+        margin-top: 210px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-wrap {
+        height: 90vh;
+    }
+
+    .contact-content {
+        top: 450%;
+        margin-top: 210px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-wrap {
+        height: 90vh;
+    }
+
+    .contact-content {
+        top:480%;
+        margin-top: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-wrap {
+        height: 90vh;
+    }
+
+    .contact-content {
+        top:480%;
+        margin-top: 390px;
+    }
+}

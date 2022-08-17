@@ -1,0 +1,47 @@
+
+.create-wrap {
+    height: 80vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+.create-content {
+
+    position: absolute;
+    top: 365%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+   
+
+}
+.nav-content{
+    margin-top:30px;
+    margin-bottom: 30px
+}
+
+@media (min-width: 576px) {
+    .create-content {
+        top: 350%;
+    } 
+}
+
+@media (min-width: 768px) {
+    .create-content {
+        top: 260%;
+    } 
+}
+
+@media (min-width: 992px) {
+    .create-content {
+        top: 260%;
+    } 
+}
+
+@media (min-width: 1200px) {
+    .create-content {
+        top: 260%;
+    } 
+}

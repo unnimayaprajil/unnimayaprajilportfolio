@@ -1,0 +1,39 @@
+.skill-wrap {
+    background-color:rgb(162 159 159 / 41%);
+    height: 130vh
+}
+
+.line {
+    border-left: 3px solid rgb(168, 128, 17);
+    height: 130px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.row{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.title{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+@media (min-width: 576px) { 
+    .skill-wrap {
+        height: 120vh
+    }
+}
+@media (min-width: 768px) {
+    .skill-wrap {
+        height: 70vh
+    }
+}
+@media (min-width: 992px) {
+    .skill-wrap {
+        height: 70vh
+    }
+}
+@media (min-width: 1200px) {
+    .skill-wrap {
+        height: 70vh
+    }
+}
