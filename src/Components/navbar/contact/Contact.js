@@ -36,7 +36,8 @@ const Contact = () => {
                             <div className="icon" style={{ fontSize: "20px" }}>
                                 <FontAwesomeIcon icon={faPhone} />
                             </div>
-                            +91 8590891745
+                            <a href="tel:+7994596909">Call: 7994596909</a>
+                           
                         </div>
 
                     </div>
@@ -50,7 +51,8 @@ const Contact = () => {
                             <div className="icon" style={{ fontSize: "20px" }}>
                                 <FontAwesomeIcon icon={faGoogleDrive} />
                             </div>
-                            unnimayaunni07@gmail.com
+                            
+                            <a  href="mailto:unnimayaunni07@gmail.com">unnimayaunni07@gmail.com</a>
                         </div>
 
                     </div>
